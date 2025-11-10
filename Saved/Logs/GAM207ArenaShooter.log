@@ -1,0 +1,1512 @@
+﻿Log file open, 11/09/25 20:34:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=21588)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: GAM207ArenaShooter
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 37383
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-44394996"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.1-44394996+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.6899] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 5 3600 6-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "D:\Users\Dave Droege\OneDrive\Documents\Unreal Projects\GAM207ArenaShooter\GAM207ArenaShooter.uproject" -AUTH_LOGIN=unused -AUTH_PASSWORD=347115d24597421eadfd073d8f9dd262 -AUTH_TYPE=exchangecode -epicapp=UE_5.6 -epicenv=Prod -EpicPortal -epicusername=SenorGuap0 -epicuserid=3033fdcf12424349ac0d707a308d4905 -epiclocale=en -epicsandboxid=ue""
+LogCsvProfiler: Display: Metadata set : loginid="64a90b364b21eec2e33c0e8483c158cd"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.398671
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-CA5B25354BBE6FE959531B8CB55E2B3A
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Binaries/Win64/*.target
+LogAssetRegistry: Display: No AssetDiscovery cache present at ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/CachedAssetRegistryDiscovery.bin. AssetRegistry discovery of files will be uncached.
+LogConfig: Display: Loading Mac ini files took 0.07 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.08 seconds
+LogConfig: Display: Loading IOS ini files took 0.08 seconds
+LogConfig: Display: Loading Android ini files took 0.08 seconds
+LogConfig: Display: Loading Windows ini files took 0.10 seconds
+LogConfig: Display: Loading Unix ini files took 0.10 seconds
+LogConfig: Display: Loading TVOS ini files took 0.10 seconds
+LogConfig: Display: Loading Linux ini files took 0.11 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.07 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin CompositeCore
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogStudioTelemetry: Started StudioTelemetry Session
+LogNFORDenoise: NFORDenoise function starting up
+LogEOSShared: Loaded "D:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.17.0-41373641
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.6-CL-44394996
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=64a90b364b21eec2e33c0e8483c158cd
+LogInit: DeviceId=
+LogInit: Engine Version: 5.6.1-44394996+++UE5+Release-5.6
+LogInit: Compatible Engine Version: 5.6.0-43139311+++UE5+Release-5.6
+LogInit: Net CL: 43139311
+LogInit: OS: Windows 11 (24H2) [10.0.26100.6899] (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: NVIDIA GeForce RTX 3060
+LogInit: Compiled (64-bit): Jul 28 2025 20:53:34
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33130.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.6
+LogInit: Command Line: -AUTH_LOGIN=unused -AUTH_PASSWORD=347115d24597421eadfd073d8f9dd262 -AUTH_TYPE=exchangecode -epicapp=UE_5.6 -epicenv=Prod -EpicPortal -epicusername=SenorGuap0 -epicuserid=3033fdcf12424349ac0d707a308d4905 -epiclocale=en -epicsandboxid=ue
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 37
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 207
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 56
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   LensFileVersion (8652A554-966A-466C-9FD7-1C6DD61B1ADB): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.RayTracing.RayTracingProxies.ProjectEnabled:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.11.10-01.34.46:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.11.10-01.34.46:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2025.11.10-01.34.46:163][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2025.11.10-01.34.46:166][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1920"
+[2025.11.10-01.34.46:166][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="1080"
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:256]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.MaxSampleCount:8]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.11.10-01.34.46:167][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.11.10-01.34.46:172][  0]LogRHI: Using Default RHI: D3D12
+[2025.11.10-01.34.46:172][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.11.10-01.34.46:172][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.11.10-01.34.46:175][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2025.11.10-01.34.46:175][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.11.10-01.34.46:440][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 3060 (VendorId: 10de, DeviceId: 2504, SubSysId: 407b1458, Revision: 00a1
+[2025.11.10-01.34.46:440][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.11.10-01.34.46:440][  0]LogD3D12RHI:   Adapter has 12115MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 2 output[s], UMA:false
+[2025.11.10-01.34.46:440][  0]LogD3D12RHI:   Driver Version: 581.57 (internal:32.0.15.8157, unified:581.57)
+[2025.11.10-01.34.46:440][  0]LogD3D12RHI:      Driver Date: 10-9-2025
+[2025.11.10-01.34.46:448][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2025.11.10-01.34.46:448][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.11.10-01.34.46:448][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 0 output[s], UMA:true
+[2025.11.10-01.34.46:448][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2025.11.10-01.34.46:448][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2025.11.10-01.34.46:448][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.11.10-01.34.46:448][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2025.11.10-01.34.46:448][  0]LogHAL: Display: Platform has ~ 16 GB [17073942528 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.11.10-01.34.46:448][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2025.11.10-01.34.46:448][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.11.10-01.34.46:448][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2025.11.10-01.34.46:448][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2025.11.10-01.34.46:448][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.11.10-01.34.46:449][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.11.10-01.34.46:449][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.11.10-01.34.46:449][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.11.10-01.34.46:449][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.11.10-01.34.46:449][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.11.10-01.34.46:449][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.11.10-01.34.46:449][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.11.10-01.34.46:449][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/Config/WindowsEditor/Editor.ini]
+[2025.11.10-01.34.46:449][  0]LogInit: Computer: SGPC
+[2025.11.10-01.34.46:449][  0]LogInit: User: dmdro
+[2025.11.10-01.34.46:449][  0]LogInit: CPU Page size=4096, Cores=6
+[2025.11.10-01.34.46:449][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.11.10-01.34.46:449][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=24.4GB
+[2025.11.10-01.34.46:449][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.11.10-01.34.46:449][  0]LogMemory: Process Physical Memory: 567.82 MB used, 589.24 MB peak
+[2025.11.10-01.34.46:449][  0]LogMemory: Process Virtual Memory: 552.32 MB used, 557.27 MB peak
+[2025.11.10-01.34.46:449][  0]LogMemory: Physical Memory: 9011.64 MB used,  7271.34 MB free, 16282.98 MB total
+[2025.11.10-01.34.46:449][  0]LogMemory: Virtual Memory: 15800.23 MB used,  9186.75 MB free, 24986.98 MB total
+[2025.11.10-01.34.46:449][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.11.10-01.34.46:450][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.11.10-01.34.46:455][  0]LogChaosDD: Chaos Debug Draw Startup
+[2025.11.10-01.34.46:455][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.11.10-01.34.46:455][  0]LogInit: Using OS detected language (en-US).
+[2025.11.10-01.34.46:455][  0]LogInit: Using OS detected locale (en-US).
+[2025.11.10-01.34.46:471][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2025.11.10-01.34.46:471][  0]LogInit: Setting process to per monitor DPI aware
+[2025.11.10-01.34.46:920][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2025.11.10-01.34.46:920][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2025.11.10-01.34.46:921][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.11.10-01.34.46:927][  0]LogWindowsTouchpad: Display: CacheForceMaxTouchpadSensitivityMode SetMaxTouchpadSensitivity
+[2025.11.10-01.34.46:930][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2025.11.10-01.34.46:937][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2025.11.10-01.34.46:937][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.11.10-01.34.47:206][  0]LogRHI: Using Default RHI: D3D12
+[2025.11.10-01.34.47:206][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.11.10-01.34.47:206][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.11.10-01.34.47:206][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.11.10-01.34.47:206][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.11.10-01.34.47:206][  0]LogD3D12RHI: Integrated GPU (iGPU): false
+[2025.11.10-01.34.47:206][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2025.11.10-01.34.47:207][  0]LogWindows: Attached monitors:
+[2025.11.10-01.34.47:207][  0]LogWindows:     resolution: 1920x1080, work area: (1920, 0) -> (3840, 1032), device: '\\.\DISPLAY1'
+[2025.11.10-01.34.47:207][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY2' [PRIMARY]
+[2025.11.10-01.34.47:207][  0]LogWindows: Found 2 attached monitors.
+[2025.11.10-01.34.47:207][  0]LogWindows: Gathering driver information using Windows Setup API
+[2025.11.10-01.34.47:207][  0]LogRHI: RHI Adapter Info:
+[2025.11.10-01.34.47:208][  0]LogRHI:             Name: NVIDIA GeForce RTX 3060
+[2025.11.10-01.34.47:208][  0]LogRHI:   Driver Version: 581.57 (internal:32.0.15.8157, unified:581.57)
+[2025.11.10-01.34.47:208][  0]LogRHI:      Driver Date: 10-9-2025
+[2025.11.10-01.34.47:208][  0]LogD3D12RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
+[2025.11.10-01.34.47:208][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2025.11.10-01.34.47:354][  0]LogNvidiaAftermath: Aftermath initialized
+[2025.11.10-01.34.47:354][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2025.11.10-01.34.47:421][  0]LogNvidiaAftermath: Aftermath enabled. Active feature flags: 
+[2025.11.10-01.34.47:421][  0]LogNvidiaAftermath:  - Feature: EnableResourceTracking
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: Bindless resources are supported
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: Stencil ref from pixel shader is not supported
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: Raster order views are supported
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=32 max=32).
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 and bindless resources are supported.
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2025.11.10-01.34.47:421][  0]LogD3D12RHI: Work Graphs are supported
+[2025.11.10-01.34.47:541][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000002AE4EC582C0)
+[2025.11.10-01.34.47:541][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000002AE4EC58580)
+[2025.11.10-01.34.47:541][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000002AE4EC58840)
+[2025.11.10-01.34.47:541][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2025.11.10-01.34.47:541][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2025.11.10-01.34.47:741][  0]LogD3D12RHI: NVIDIA Shader Execution Reordering NOT supported!
+[2025.11.10-01.34.47:741][  0]LogD3D12RHI: Display: Batched command list execution is disabled for async queues due to known bugs in the current driver.
+[2025.11.10-01.34.47:741][  0]LogRHI: Texture pool is 7148 MB (70% of 10212 MB)
+[2025.11.10-01.34.47:741][  0]LogD3D12RHI: Async texture creation enabled
+[2025.11.10-01.34.47:741][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2025.11.10-01.34.47:794][  0]LogVRS: Current RHI supports per-draw and screenspace Variable Rate Shading
+[2025.11.10-01.34.47:811][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D12"
+[2025.11.10-01.34.47:811][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D12"
+[2025.11.10-01.34.47:811][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2025.11.10-01.34.47:811][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2025.11.10-01.34.47:811][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.11.10-01.34.47:823][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/GAM207ArenaShooter.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/TurnkeyReport_0.log" -log="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/TurnkeyLog_0.log" -project="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/GAM207ArenaShooter.uproject"  -platform=all'
+[2025.11.10-01.34.47:823][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/GAM207ArenaShooter.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/TurnkeyReport_0.log" -log="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/TurnkeyLog_0.log" -project="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/GAM207ArenaShooter.uproject"  -platform=all" ]
+[2025.11.10-01.34.47:839][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2025.11.10-01.34.47:839][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.11.10-01.34.47:839][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.11.10-01.34.47:839][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.11.10-01.34.47:839][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.11.10-01.34.47:839][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.11.10-01.34.47:839][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2025.11.10-01.34.47:839][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2025.11.10-01.34.47:841][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.11.10-01.34.47:842][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.11.10-01.34.47:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.11.10-01.34.47:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.11.10-01.34.47:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.11.10-01.34.47:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.11.10-01.34.47:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.11.10-01.34.47:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.11.10-01.34.47:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.11.10-01.34.47:981][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.11.10-01.34.47:981][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.11.10-01.34.47:981][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.11.10-01.34.47:981][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.11.10-01.34.48:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.11.10-01.34.48:008][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.11.10-01.34.48:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.11.10-01.34.48:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.11.10-01.34.48:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.11.10-01.34.48:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.11.10-01.34.48:036][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2025.11.10-01.34.48:071][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL_ES3_1_IOS from hinted modules, loading all potential format modules to find it
+[2025.11.10-01.34.48:077][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2025.11.10-01.34.48:077][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_IOS
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_METAL_SM5_IOS
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_METAL_ES3_1_TVOS
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_METAL_SM5_TVOS
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_METAL_ES3_1
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   VVM_1_0
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2025.11.10-01.34.48:078][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2025.11.10-01.34.48:078][  0]LogRendererCore: Ray tracing is enabled (dynamic). Reason: r.RayTracing=1 and r.RayTracing.EnableOnDemand=1.
+[2025.11.10-01.34.48:078][  0]LogRendererCore: Ray tracing shaders are enabled.
+[2025.11.10-01.34.48:080][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.11.10-01.34.48:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.11.10-01.34.48:080][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2025.11.10-01.34.48:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.11.10-01.34.48:080][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2025.11.10-01.34.48:297][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1350 MiB)
+[2025.11.10-01.34.48:297][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.11.10-01.34.48:297][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2025.11.10-01.34.48:298][  0]LogZenServiceInstance: Found Zen config default=C:/Users/dmdro/AppData/Local/UnrealEngine/Common/Zen/Data
+[2025.11.10-01.34.48:298][  0]LogZenServiceInstance: InTree version at 'D:/Program Files/Epic Games/UE_5.6/Engine/Binaries/Win64/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.11.10-01.34.48:299][  0]LogZenServiceInstance: Installed version at 'C:/Users/dmdro/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.11.10-01.34.48:318][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2025.11.10-01.34.49:310][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2025.11.10-01.34.49:322][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.11.10-01.34.49:323][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 1.025 seconds
+[2025.11.10-01.34.49:324][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.11.10-01.34.49:334][  0]LogDerivedDataCache: C:/Users/dmdro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2025.11.10-01.34.49:334][  0]LogDerivedDataCache: Display: C:/Users/dmdro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.04ms. RandomReadSpeed=920.21MBs, RandomWriteSpeed=124.42MBs. Assigned SpeedClass 'Local'
+[2025.11.10-01.34.49:336][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/dmdro/AppData/Local/UnrealEngine/Common/DerivedDataCache: DeleteOnly
+[2025.11.10-01.34.49:336][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2025.11.10-01.34.49:336][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Hierarchy.
+[2025.11.10-01.34.49:338][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2025.11.10-01.34.49:338][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2025.11.10-01.34.49:338][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2025.11.10-01.34.49:338][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2025.11.10-01.34.49:338][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/Shaders/WorkingDirectory/15588/).
+[2025.11.10-01.34.49:338][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dmdro/AppData/Local/Temp/UnrealShaderWorkingDir/5E2888A54625872E9344C1A862291CC0/'.
+[2025.11.10-01.34.49:338][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2025.11.10-01.34.49:338][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2025.11.10-01.34.49:338][  0]LogShaderCompilers: Display: Using 9 local workers for shader compilation
+[2025.11.10-01.34.49:340][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.11.10-01.34.49:370][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.11.10-01.34.49:370][  0]LogShaderCompilers: Display: Shader autogen file written: ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.11.10-01.34.52:019][  0]LogSlate: Using FreeType 2.10.0
+[2025.11.10-01.34.52:020][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.11.10-01.34.52:026][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.11.10-01.34.52:026][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.11.10-01.34.52:026][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.11.10-01.34.52:026][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.11.10-01.34.52:049][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2025.11.10-01.34.52:052][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2025.11.10-01.34.52:065][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/CachedAssetRegistry_*.bin.
+[2025.11.10-01.34.52:372][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.11.10-01.34.52:372][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.11.10-01.34.52:421][  0]LogDeviceProfileManager: Active device profile: [000002AE95A7D480][000002AE54C2A000 66] WindowsEditor
+[2025.11.10-01.34.52:421][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.11.10-01.34.52:423][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.10-01.34.52:538][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2025.11.10-01.34.52:538][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.11.10-01.34.52:538][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.11.10-01.34.53:177][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Invalid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2025.11.10-01.34.53:178][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/GAM207ArenaShooter.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/TurnkeyReport_1.log" -log="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/TurnkeyLog_1.log" -project="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/GAM207ArenaShooter.uproject"  -Device=Win64@SGPC'
+[2025.11.10-01.34.53:178][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/GAM207ArenaShooter.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/TurnkeyReport_1.log" -log="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/TurnkeyLog_1.log" -project="D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/GAM207ArenaShooter.uproject"  -Device=Win64@SGPC" -nocompile -nocompileuat ]
+[2025.11.10-01.34.53:754][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.53:755][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2025.11.10-01.34.53:755][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.53:755][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.53:756][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2025.11.10-01.34.53:756][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.53:757][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.53:959][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2025.11.10-01.34.53:960][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2025.11.10-01.34.53:962][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2025.11.10-01.34.53:963][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.53:965][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.53:965][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.54:099][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2025.11.10-01.34.54:099][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2025.11.10-01.34.54:101][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2025.11.10-01.34.54:101][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.54:137][  0]LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 6b2bb9d5587a094a0b951b342d0098dbe19d3f13), compiling. 
+[2025.11.10-01.34.54:482][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.11.10-01.34.55:158][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2025.11.10-01.34.55:158][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.34.55:174][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 2a1336a75e9581e53105be240050673e93b424bf), compiling. 
+[2025.11.10-01.35.01:415][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2025.11.10-01.35.01:416][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.35.01:429][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 795e83837ee627d396f050417e7684d9a351bc92), compiling. 
+[2025.11.10-01.35.03:907][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2025.11.10-01.35.03:907][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.11.10-01.35.04:182][  0]LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 4db3f77a5cfa471d0a12f789367bc45f264822c5), compiling. Is special engine material.
+[2025.11.10-01.35.29:691][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.11.10-01.35.29:691][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.11.10-01.35.29:691][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.11.10-01.35.29:691][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.11.10-01.35.29:691][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.11.10-01.35.30:308][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2025.11.10-01.35.30:351][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.11.10-01.35.30:351][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.11.10-01.35.30:351][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2025.11.10-01.35.30:351][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2025.11.10-01.35.30:356][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.11.10-01.35.30:356][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.11.10-01.35.30:357][  0]LogLiveCoding: Display: First instance in process group "UE_GAM207ArenaShooter_0xceb1db98", spawning console
+[2025.11.10-01.35.30:361][  0]LogLiveCoding: Display: Waiting for server
+[2025.11.10-01.35.30:389][  0]LogSlate: Border
+[2025.11.10-01.35.30:389][  0]LogSlate: BreadcrumbButton
+[2025.11.10-01.35.30:389][  0]LogSlate: Brushes.Title
+[2025.11.10-01.35.30:389][  0]LogSlate: ColorPicker.ColorThemes
+[2025.11.10-01.35.30:389][  0]LogSlate: Default
+[2025.11.10-01.35.30:389][  0]LogSlate: Icons.Save
+[2025.11.10-01.35.30:389][  0]LogSlate: Icons.Toolbar.Settings
+[2025.11.10-01.35.30:389][  0]LogSlate: ListView
+[2025.11.10-01.35.30:389][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.11.10-01.35.30:389][  0]LogSlate: SoftwareCursor_Grab
+[2025.11.10-01.35.30:389][  0]LogSlate: TableView.DarkRow
+[2025.11.10-01.35.30:389][  0]LogSlate: TableView.Row
+[2025.11.10-01.35.30:389][  0]LogSlate: TreeView
+[2025.11.10-01.35.30:581][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.11.10-01.35.30:583][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.600 ms
+[2025.11.10-01.35.30:633][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.11.10-01.35.30:633][  0]LogInit: XR: MultiViewport is Disabled
+[2025.11.10-01.35.30:633][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.11.10-01.35.30:654][  0]LogTurnkeySupport: Turnkey Device: Win64@SGPC: (Name=SGPC, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2025.11.10-01.35.30:674][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.11.10-01.35.31:506][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: E4942209C304499D800000000000D900 | Instance: E2DEC2ED40F647EBBEE68898111BC772 (SGPC-15588).
+[2025.11.10-01.35.31:819][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.11.10-01.35.33:289][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.11.10-01.35.33:289][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.11.10-01.35.33:289][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:64941'.
+[2025.11.10-01.35.33:293][  0]LogUdpMessaging: Display: Added local interface '192.168.1.140' to multicast group '230.0.0.1:6666'
+[2025.11.10-01.35.33:295][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2025.11.10-01.35.33:298][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 3060
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT:   DirectML:  yes
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT:   D3D12:     yes
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT:   NPU:       yes
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT: Interface availability:
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT:   GPU: yes
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT:   RDG: yes
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT:   NPU: yes
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.11.10-01.35.33:320][  0]LogNNERuntimeORT: Selecting NPU adapter: NVIDIA GeForce RTX 3060
+[2025.11.10-01.35.33:712][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.11.10-01.35.33:713][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.11.10-01.35.33:733][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.11.10-01.35.34:323][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.11.10-01.35.34:323][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.11.10-01.35.34:396][  0]LogTimingProfiler: Initialize
+[2025.11.10-01.35.34:398][  0]LogTimingProfiler: OnSessionChanged
+[2025.11.10-01.35.34:398][  0]LoadingProfiler: Initialize
+[2025.11.10-01.35.34:398][  0]LoadingProfiler: OnSessionChanged
+[2025.11.10-01.35.34:398][  0]LogNetworkingProfiler: Initialize
+[2025.11.10-01.35.34:398][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.11.10-01.35.34:398][  0]LogMemoryProfiler: Initialize
+[2025.11.10-01.35.34:399][  0]LogMemoryProfiler: OnSessionChanged
+[2025.11.10-01.35.35:542][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.11.10-01.35.35:559][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.11.10-01.35.35:587][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.11.10-01.35.35:587][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.11.10-01.35.36:041][  0]SourceControl: Revision control is disabled
+[2025.11.10-01.35.36:094][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.11.10-01.35.36:094][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.11.10-01.35.36:094][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.11.10-01.35.36:094][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.11.10-01.35.36:128][  0]SourceControl: Revision control is disabled
+[2025.11.10-01.35.36:146][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.11.10-01.35.36:246][  0]LogCollectionManager: Loaded 0 collections in 0.000956 seconds
+[2025.11.10-01.35.36:248][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/Collections/' took 0.00s
+[2025.11.10-01.35.36:251][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Developers/dmdro/Collections/' took 0.00s
+[2025.11.10-01.35.36:253][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Collections/' took 0.00s
+[2025.11.10-01.35.36:358][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.11.10-01.35.36:359][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.11.10-01.35.36:359][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.11.10-01.35.36:359][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.11.10-01.35.36:414][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.11.10-01.35.36:414][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.11.10-01.35.36:414][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.11.10-01.35.36:414][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.11.10-01.35.36:437][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-41373641 booting at 2025-11-10T01:35:36.437Z using C
+[2025.11.10-01.35.36:437][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.6725.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=GAM207ArenaShooter, ProductVersion=++UE5+Release-5.6-CL-44394996, IsServer=false, Flags=DisableOverlay]
+[2025.11.10-01.35.36:437][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.11.10-01.35.36:438][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2025.11.10-01.35.36:443][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2025.11.10-01.35.36:443][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2025.11.10-01.35.36:443][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2025.11.10-01.35.36:443][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000061
+[2025.11.10-01.35.36:517][  0]LogUObjectArray: 42347 objects as part of root set at end of initial load.
+[2025.11.10-01.35.36:517][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.11.10-01.35.36:643][  0]LogClass: Display: AttemptToFindUninitializedScriptStructMembers took more than 1ms to process ScriptStruct /Script/MetasoundFrontend.MetasoundFrontendDocument. Time(ms): 22.9
+[2025.11.10-01.35.36:699][  0]LogEngine: Initializing Engine...
+[2025.11.10-01.35.36:910][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.11.10-01.35.36:954][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2025.11.10-01.35.37:485][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.11.10-01.35.37:496][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.11.10-01.35.37:526][  0]LogTexture: Display: Waiting for textures to be ready 12/37 (/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq) ...
+[2025.11.10-01.35.37:557][  0]LogTexture: Display: Waiting for textures to be ready 22/37 (/Engine/EngineMaterials/BaseFlattenDiffuseMap_VT) ...
+[2025.11.10-01.35.37:679][  0]LogTexture: Display: Waiting for textures to be ready 23/37 (/Engine/EngineMaterials/BaseFlattenEmissiveMap_VT) ...
+[2025.11.10-01.35.37:879][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.11.10-01.35.38:138][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.11.10-01.35.38:138][  0]LogInit: Texture streaming: Enabled
+[2025.11.10-01.35.38:148][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.1-44394996+++UE5+Release-5.6 )
+[2025.11.10-01.35.38:153][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.11.10-01.35.38:184][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.11.10-01.35.38:184][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.11.10-01.35.38:185][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.11.10-01.35.38:185][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.11.10-01.35.38:185][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.10-01.35.38:185][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.10-01.35.38:185][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.10-01.35.38:185][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.10-01.35.38:185][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.10-01.35.38:185][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.10-01.35.38:185][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.10-01.35.38:185][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.10-01.35.38:185][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.10-01.35.38:185][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.10-01.35.38:185][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.10-01.35.38:207][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.10-01.35.38:241][  0]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2025.11.10-01.35.38:241][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.10-01.35.38:243][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.10-01.35.38:243][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.10-01.35.38:245][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.11.10-01.35.38:245][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2025.11.10-01.35.38:249][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.11.10-01.35.38:249][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.11.10-01.35.38:249][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.11.10-01.35.38:279][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.11.10-01.35.38:279][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.11.10-01.35.38:336][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.11.10-01.35.38:363][  0]LogInit: Undo buffer set to 256 MB
+[2025.11.10-01.35.38:363][  0]LogInit: Transaction tracking system initialized
+[2025.11.10-01.35.38:446][  0]LocalizationService: Localization service is disabled
+[2025.11.10-01.35.38:767][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2025.11.10-01.35.39:097][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/' took 0.00s
+[2025.11.10-01.35.39:339][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2025.11.10-01.35.39:339][  0]LogPython: Using Python 3.11.8
+[2025.11.10-01.35.39:381][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.11.10-01.35.39:748][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.11.10-01.35.39:750][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (8 permutations).
+[2025.11.10-01.35.40:044][  0]LogEditorDataStorage: Initializing
+[2025.11.10-01.35.40:154][  0]LogEditorDataStorage: Initialized
+[2025.11.10-01.35.40:163][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2025.11.10-01.35.40:361][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.11.10-01.35.40:370][  0]SourceControl: Revision control is disabled
+[2025.11.10-01.35.40:371][  0]LogUnrealEdMisc: Loading editor; pre map load, took 55.639
+[2025.11.10-01.35.40:550][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.11.10-01.35.40:553][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.11.10-01.35.40:554][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.10-01.35.40:628][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.10-01.35.40:707][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.11.10-01.35.42:042][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2025.11.10-01.35.42:042][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.11.10-01.35.42:045][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.11.10-01.35.42:045][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.10-01.35.42:045][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/Untitled_1.Untitled_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.10-01.35.42:837][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.11.10-01.35.43:066][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.11.10-01.35.43:076][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.11.10-01.35.43:082][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.11.10-01.35.43:088][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.11.10-01.35.43:088][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.11.10-01.35.43:089][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.11.10-01.35.43:096][  0]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.11.10-01.35.43:267][  0]LogWorldPartition: Display: WorldPartition initialize took 1.22 sec
+[2025.11.10-01.35.43:381][  0]LogAssetRegistry: Display: Asset registry cache written as 66.6 MiB to ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Intermediate/CachedAssetRegistry_*.bin
+[2025.11.10-01.35.43:483][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.11.10-01.35.43:501][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.11.10-01.35.43:501][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.11.10-01.35.43:503][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.729ms to complete.
+[2025.11.10-01.35.43:553][  0]LogUnrealEdMisc: Total Editor Startup Time, took 58.821
+[2025.11.10-01.35.43:931][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2025.11.10-01.35.45:862][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.10-01.35.46:011][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.10-01.35.46:091][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.10-01.35.46:172][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.10-01.35.48:606][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:608][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.11.10-01.35.48:608][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:608][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.11.10-01.35.48:608][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:609][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.11.10-01.35.48:609][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:611][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.11.10-01.35.48:611][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:612][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.11.10-01.35.48:612][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:612][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.11.10-01.35.48:613][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:614][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.11.10-01.35.48:614][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:614][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.11.10-01.35.48:614][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:615][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.11.10-01.35.48:615][  0]LogPakFile: Initializing PakPlatformFile
+[2025.11.10-01.35.48:617][  0]LogPakFile: Display: Mounted Pak file 'D:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.11.10-01.35.49:224][  0]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.11.10-01.35.49:735][  0]LogSlate: Took 0.029010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.11.10-01.35.49:800][  0]LogSlate: Took 0.019438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.11.10-01.35.53:057][  0]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.10-01.35.54:076][  0]LogPSOHitching: Encountered 50 PSO creation hitches so far (4 graphics, 46 compute). 0 of them were precached.
+[2025.11.10-01.35.54:608][  0]LogPSOHitching: Encountered 100 PSO creation hitches so far (13 graphics, 87 compute). 0 of them were precached.
+[2025.11.10-01.35.55:066][  0]LogStall: Startup...
+[2025.11.10-01.35.55:068][  0]LogStall: Startup complete.
+[2025.11.10-01.35.55:243][  0]LogLoad: (Engine Initialization) Total time: 70.51 seconds
+[2025.11.10-01.35.56:030][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.11.10-01.35.56:030][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.11.10-01.35.56:441][  0]LogSlate: Took 0.008102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.11.10-01.35.56:706][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.10-01.35.56:720][  0]LogPython: Display: Running start-up script D:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.11.10-01.35.57:140][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.11.10-01.35.57:173][  0]LogPython: Display: Running start-up script D:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 454.467 ms
+[2025.11.10-01.35.57:652][  1]LogAssetRegistry: AssetRegistryGather time 35.8404s: AssetDataDiscovery 1.7449s, AssetDataGather 34.0314s, StoreResults 0.0641s. Wall time 65.6050s.
+	NumCachedDirectories 0. NumUncachedDirectories 1451. NumCachedFiles 0. NumUncachedFiles 7376.
+	BackgroundTickInterruptions 0.
+[2025.11.10-01.35.57:702][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.11.10-01.35.57:714][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2025.11.10-01.35.57:714][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.11.10-01.35.57:850][  1]LogStreaming: Display: FlushAsyncLoading(410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473): 64 QueuedPackages, 0 AsyncPackages
+[2025.11.10-01.35.57:925][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/5S/7KG1M6Z4DAY7L4W6MCJF27) ...
+[2025.11.10-01.35.58:109][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/CZ/OANN28HN8QI6DGM822TLEF) ...
+[2025.11.10-01.35.58:502][  1]LogSourceControl: Uncontrolled asset discovery finished in 0.787986 seconds (Found 7352 uncontrolled assets)
+[2025.11.10-01.35.59:213][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 22.162006
+[2025.11.10-01.35.59:213][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.11.10-01.35.59:215][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22.770117
+[2025.11.10-01.36.00:177][  3]LogPSOHitching: Encountered 150 PSO creation hitches so far (41 graphics, 109 compute). 0 of them were precached.
+[2025.11.10-01.36.01:317][  6]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.11.10-01.36.01:934][  8]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 25.157276
+[2025.11.10-01.36.01:937][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -877650155
+[2025.11.10-01.36.01:937][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25.157276, Update Interval: 359.238251
+[2025.11.10-01.36.49:336][467]LogDerivedDataCache: C:/Users/dmdro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.10-01.42.01:308][402]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 384.865295
+[2025.11.10-01.42.02:308][405]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.10-01.42.02:308][405]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 385.531769, Update Interval: 315.123138
+[2025.11.10-01.47.20:645][360]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 704.202148
+[2025.11.10-01.47.21:645][363]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.10-01.47.21:645][363]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 704.868896, Update Interval: 338.158508
+[2025.11.10-01.53.07:317][400]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1050.874634
+[2025.11.10-01.53.08:318][403]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.10-01.53.08:318][403]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1051.541382, Update Interval: 315.610229
+[2025.11.10-01.55.24:657][674]LogSlate: Window 'Save Level As' being destroyed
+[2025.11.10-01.55.25:167][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.11.10-01.55.25:232][674]LogSavePackage: Moving output files for package: /Game/NewMap
+[2025.11.10-01.55.25:232][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/NewMap6948EE9247515D59981F76AE94E77A8A.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/NewMap.umap'
+[2025.11.10-01.55.25:344][674]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.10-01.55.25:440][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.11.10-01.55.25:457][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.11.10-01.55.25:473][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.11.10-01.55.25:475][674]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NewMap_HLOD0_Instancing] ([1] browsable assets)...
+[2025.11.10-01.55.25:475][674]OBJ SavePackage: Finished generating thumbnails for package [/Game/NewMap_HLOD0_Instancing]
+[2025.11.10-01.55.25:492][674]LogSavePackage: Moving output files for package: /Game/NewMap_HLOD0_Instancing
+[2025.11.10-01.55.25:492][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/NewMap_HLOD0_Instancing088560704A034F1D1E3F1D9FCE2495BC.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/NewMap_HLOD0_Instancing.uasset'
+[2025.11.10-01.55.25:519][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/J7/QO5TQORWCXORVK1051S8GH
+[2025.11.10-01.55.25:519][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/QO5TQORWCXORVK1051S8GHCD6564684998E7D971BB4B9BBE3B1FB4.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/2/J7/QO5TQORWCXORVK1051S8GH.uasset'
+[2025.11.10-01.55.25:531][674]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/NewMap/1/RU/3FHCA0FW5IIFSQ2O54UZA9
+[2025.11.10-01.55.25:531][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/3FHCA0FW5IIFSQ2O54UZA98C282041460D53C31D038E89005CC9FD.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalObjects__/NewMap/1/RU/3FHCA0FW5IIFSQ2O54UZA9.uasset'
+[2025.11.10-01.55.25:543][674]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/NewMap/7/AM/99MZXH85XVTY7NU0J1OJ8N
+[2025.11.10-01.55.25:543][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/99MZXH85XVTY7NU0J1OJ8NDB8FB7F14533B706513265A7D7A155CD.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalObjects__/NewMap/7/AM/99MZXH85XVTY7NU0J1OJ8N.uasset'
+[2025.11.10-01.55.25:553][674]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/NewMap/9/EW/DIR8ZHVIQ96U3XBY7PSRNI
+[2025.11.10-01.55.25:553][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/DIR8ZHVIQ96U3XBY7PSRNI404E19E74A9FBEDCBDFF99981A0B1C8E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalObjects__/NewMap/9/EW/DIR8ZHVIQ96U3XBY7PSRNI.uasset'
+[2025.11.10-01.55.25:564][674]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/NewMap/E/VH/WYRPDUCDC4MIWMIRBPXU8G
+[2025.11.10-01.55.25:564][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/WYRPDUCDC4MIWMIRBPXU8G2F4B6E8144F5775255FC359A0C0D8DE9.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalObjects__/NewMap/E/VH/WYRPDUCDC4MIWMIRBPXU8G.uasset'
+[2025.11.10-01.55.25:592][674]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/NewMap/9/20/PV6HCV4P0GX9P77B63TXTQ
+[2025.11.10-01.55.25:592][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/PV6HCV4P0GX9P77B63TXTQCCB3A1634FB1FC93D56055A963A063C2.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalObjects__/NewMap/9/20/PV6HCV4P0GX9P77B63TXTQ.uasset'
+[2025.11.10-01.55.25:603][674]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/NewMap/4/OA/KV5NVW6RVGCY40C13H5F98
+[2025.11.10-01.55.25:603][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/KV5NVW6RVGCY40C13H5F98D8E16ED546E1B429537B93A0C311F5A4.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalObjects__/NewMap/4/OA/KV5NVW6RVGCY40C13H5F98.uasset'
+[2025.11.10-01.55.25:756][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/MY/K9ZUEA69K5KJSH5045MJR1
+[2025.11.10-01.55.25:756][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/K9ZUEA69K5KJSH5045MJR151783DC444E18B7D95B33B834280C05D.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/MY/K9ZUEA69K5KJSH5045MJR1.uasset'
+[2025.11.10-01.55.25:776][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/MW/33JI6228IHMKP046YQI3NM
+[2025.11.10-01.55.25:776][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/33JI6228IHMKP046YQI3NM87B59EB249B788549BF94FB91B1DE2A7.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/9/MW/33JI6228IHMKP046YQI3NM.uasset'
+[2025.11.10-01.55.25:791][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/LJ/SX9JKDV4UA15T0E1TTFAVZ
+[2025.11.10-01.55.25:791][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/SX9JKDV4UA15T0E1TTFAVZ673E3AE643831E6D40546896E9F58ACE.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/1/LJ/SX9JKDV4UA15T0E1TTFAVZ.uasset'
+[2025.11.10-01.55.25:838][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/RB/UWT2EIZPYQICCJ0JNTZ85V
+[2025.11.10-01.55.25:838][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/UWT2EIZPYQICCJ0JNTZ85V485D39354B25BB9E4101E6B6353A3CC0.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/RB/UWT2EIZPYQICCJ0JNTZ85V.uasset'
+[2025.11.10-01.55.25:862][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/BZ/ZZZUE6B734TVUOS09XOW8Y
+[2025.11.10-01.55.25:862][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/ZZZUE6B734TVUOS09XOW8Y974594A14D7C0FD782FB268026D10BCF.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/A/BZ/ZZZUE6B734TVUOS09XOW8Y.uasset'
+[2025.11.10-01.55.25:874][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/Q8/QNW4NKCF3JB30PDQLYNK04
+[2025.11.10-01.55.25:874][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/QNW4NKCF3JB30PDQLYNK0427F82A5A4E70D34166E552AB37F323FC.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/4/Q8/QNW4NKCF3JB30PDQLYNK04.uasset'
+[2025.11.10-01.55.25:884][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/F8/S0M3NFTEJWDWQXLH8WL3P0
+[2025.11.10-01.55.25:884][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/S0M3NFTEJWDWQXLH8WL3P0BF037636458C949176F213AAF05A21E6.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/1/F8/S0M3NFTEJWDWQXLH8WL3P0.uasset'
+[2025.11.10-01.55.34:083][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/KB/H67VGU7BHNHPWWQEMQJ41J
+[2025.11.10-01.55.34:083][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/H67VGU7BHNHPWWQEMQJ41J91F96F1849D2226CACE05CBEE4EA5A6E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/9/KB/H67VGU7BHNHPWWQEMQJ41J.uasset'
+[2025.11.10-01.55.34:094][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/7Z/D90LOZ6OX06T5XEND5R79L
+[2025.11.10-01.55.34:094][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/D90LOZ6OX06T5XEND5R79L0406A62E4DA16DE4E668B9B1954558EC.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/E/7Z/D90LOZ6OX06T5XEND5R79L.uasset'
+[2025.11.10-01.55.34:193][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/BV/STFWH78SWHO1BT3JB2S9GT
+[2025.11.10-01.55.34:193][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/STFWH78SWHO1BT3JB2S9GT1B74D54543F2F9F5C9E423B4D6926FC5.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/BV/STFWH78SWHO1BT3JB2S9GT.uasset'
+[2025.11.10-01.55.34:220][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/ZU/N5WZ7N63Q2DBG05ZT1Y94V
+[2025.11.10-01.55.34:220][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/N5WZ7N63Q2DBG05ZT1Y94VAE96490D49F92D44FC7EC1B0C926D982.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/C/ZU/N5WZ7N63Q2DBG05ZT1Y94V.uasset'
+[2025.11.10-01.55.34:404][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/09/QCU8K2REN785K74C0JAHL8
+[2025.11.10-01.55.34:404][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/QCU8K2REN785K74C0JAHL8361398884E3EAF146398698C04B3307D.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/09/QCU8K2REN785K74C0JAHL8.uasset'
+[2025.11.10-01.55.34:439][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/PP/V9CAJRQOOCARULA8KSKFKF
+[2025.11.10-01.55.34:439][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/V9CAJRQOOCARULA8KSKFKF1D6E74CA4E10EE241DA4C3BD4C6225AA.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/PP/V9CAJRQOOCARULA8KSKFKF.uasset'
+[2025.11.10-01.55.34:482][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/RD/PZ5XNZU157V0GDAJAXC2DQ
+[2025.11.10-01.55.34:482][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/PZ5XNZU157V0GDAJAXC2DQE4E188F5411C7A739708E5A122EBF4B4.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/RD/PZ5XNZU157V0GDAJAXC2DQ.uasset'
+[2025.11.10-01.55.34:530][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/HU/QBOG0EUDUJ3I7CKDLU6SM5
+[2025.11.10-01.55.34:530][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/QBOG0EUDUJ3I7CKDLU6SM56757BD4848C0F3A98EA897A1CBBFD335.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/E/HU/QBOG0EUDUJ3I7CKDLU6SM5.uasset'
+[2025.11.10-01.55.34:588][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/DN/K5XHNT2TJPQ6HM9TN0HG8R
+[2025.11.10-01.55.34:588][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/K5XHNT2TJPQ6HM9TN0HG8R0260B1E04FA93E68AE8B88B412C59622.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/A/DN/K5XHNT2TJPQ6HM9TN0HG8R.uasset'
+[2025.11.10-01.55.34:617][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/BG/Y8EZ2AXLMEN39WTAPXB6VM
+[2025.11.10-01.55.34:617][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/Y8EZ2AXLMEN39WTAPXB6VM67FB4EBA4561A012DA08A19C5AF188F7.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/D/BG/Y8EZ2AXLMEN39WTAPXB6VM.uasset'
+[2025.11.10-01.55.34:646][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/RS/RPVI13LNVTY93V3EQ1Y4FV
+[2025.11.10-01.55.34:646][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/RPVI13LNVTY93V3EQ1Y4FVAD31F4544561017F10AA20B6B0B44766.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/9/RS/RPVI13LNVTY93V3EQ1Y4FV.uasset'
+[2025.11.10-01.55.34:678][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/P6/UDWQC9DWW7DL22CPJ4RVSI
+[2025.11.10-01.55.34:678][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/UDWQC9DWW7DL22CPJ4RVSIF449BAFE4E5CBA334D580E823916082E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/P6/UDWQC9DWW7DL22CPJ4RVSI.uasset'
+[2025.11.10-01.55.34:707][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/4M/EE3LUXOWULAYGXN1IPS4S2
+[2025.11.10-01.55.34:707][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/EE3LUXOWULAYGXN1IPS4S2138688D54866C4DD53DA119CED71AF04.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/4M/EE3LUXOWULAYGXN1IPS4S2.uasset'
+[2025.11.10-01.55.34:738][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/HN/Y3GF0HWTXA7DHH1FL3IF9R
+[2025.11.10-01.55.34:738][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/Y3GF0HWTXA7DHH1FL3IF9R4088E5DA4C9FB3FB763F3986849B55FE.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/HN/Y3GF0HWTXA7DHH1FL3IF9R.uasset'
+[2025.11.10-01.55.34:773][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/1C/XX81YC0HUFD6L3IX7RWMS0
+[2025.11.10-01.55.34:773][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/XX81YC0HUFD6L3IX7RWMS0B8E7B1904A73EAB3C359ED857A3BEBE3.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/1C/XX81YC0HUFD6L3IX7RWMS0.uasset'
+[2025.11.10-01.55.34:815][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/6Q/5E0J4DYSYB0DUPM0H3UFMJ
+[2025.11.10-01.55.34:815][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/5E0J4DYSYB0DUPM0H3UFMJ178796F54E08BBD5C3AA60B29F05B821.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/6Q/5E0J4DYSYB0DUPM0H3UFMJ.uasset'
+[2025.11.10-01.55.34:843][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/X4/I3YAKOIE9OZW8RGU76MLDU
+[2025.11.10-01.55.34:843][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/I3YAKOIE9OZW8RGU76MLDUA1C91B1347E5FA0B5E31B29E30BA75B9.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/E/X4/I3YAKOIE9OZW8RGU76MLDU.uasset'
+[2025.11.10-01.55.34:872][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/M2/8TXEZSVIN8XJXFAAPYJ9PF
+[2025.11.10-01.55.34:872][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/8TXEZSVIN8XJXFAAPYJ9PF4BC0DDE247EC89D1D7800497FD892CC6.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/M2/8TXEZSVIN8XJXFAAPYJ9PF.uasset'
+[2025.11.10-01.55.34:900][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/MZ/99H285CLZ96HCTKT3S7S79
+[2025.11.10-01.55.34:900][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/99H285CLZ96HCTKT3S7S796E51B18A43084D1E491F82A00A436122.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/C/MZ/99H285CLZ96HCTKT3S7S79.uasset'
+[2025.11.10-01.55.34:930][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/YH/J8JQXJ67F9KX47CCDA8ZMF
+[2025.11.10-01.55.34:930][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/J8JQXJ67F9KX47CCDA8ZMF54022904449493CD85DC1488DBDECD56.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/YH/J8JQXJ67F9KX47CCDA8ZMF.uasset'
+[2025.11.10-01.55.34:959][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/OZ/7UWDO77CF7TNVQ9BB75XCF
+[2025.11.10-01.55.34:960][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/7UWDO77CF7TNVQ9BB75XCFE71E83054C68DD599BDEAD9612ECDB33.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/OZ/7UWDO77CF7TNVQ9BB75XCF.uasset'
+[2025.11.10-01.55.34:988][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/AQ/TIHXLB5639NV4RM260YDTW
+[2025.11.10-01.55.34:988][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/TIHXLB5639NV4RM260YDTW9246BA794127C1F24A30F7BCDAA65DE7.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/AQ/TIHXLB5639NV4RM260YDTW.uasset'
+[2025.11.10-01.55.35:042][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/X7/GV76BBB2V0EFHV7ELK9A0Y
+[2025.11.10-01.55.35:042][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/GV76BBB2V0EFHV7ELK9A0Y01B198E64595ABA917B0F3885D808D18.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/9/X7/GV76BBB2V0EFHV7ELK9A0Y.uasset'
+[2025.11.10-01.55.35:071][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/53/CHPLQ79FFGJWC3VACZJA90
+[2025.11.10-01.55.35:071][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/CHPLQ79FFGJWC3VACZJA90BAD7A2B040A082CB7E051D9B659284C5.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/9/53/CHPLQ79FFGJWC3VACZJA90.uasset'
+[2025.11.10-01.55.35:102][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/BQ/39OTWHVDSI751PAH6731ID
+[2025.11.10-01.55.35:102][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/39OTWHVDSI751PAH6731ID31C99E3849C6875E8F01BE898264DB0E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/BQ/39OTWHVDSI751PAH6731ID.uasset'
+[2025.11.10-01.55.35:133][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/SK/3B5158OKASMIKGFDZC9KRF
+[2025.11.10-01.55.35:133][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/3B5158OKASMIKGFDZC9KRF8D46BA9D40035B2954C4729B61752F09.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/E/SK/3B5158OKASMIKGFDZC9KRF.uasset'
+[2025.11.10-01.55.35:164][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/4X/X4NPSX8ZUWI1DPH52YEUUP
+[2025.11.10-01.55.35:165][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/X4NPSX8ZUWI1DPH52YEUUP43D0C62243EFC823D8C60F95ACCF652A.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/2/4X/X4NPSX8ZUWI1DPH52YEUUP.uasset'
+[2025.11.10-01.55.35:195][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/8V/MRZ7RQN5KANFM03I7EKRCC
+[2025.11.10-01.55.35:195][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/MRZ7RQN5KANFM03I7EKRCCC55A8A7D48AA574F3B51A49FE9F5AF5B.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/8V/MRZ7RQN5KANFM03I7EKRCC.uasset'
+[2025.11.10-01.55.35:226][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/ZT/XQN8LZWIDWMWIMOBUZOJDH
+[2025.11.10-01.55.35:226][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/XQN8LZWIDWMWIMOBUZOJDH2F35F1044B1A7CF5D7798AAF14D378AC.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/ZT/XQN8LZWIDWMWIMOBUZOJDH.uasset'
+[2025.11.10-01.55.35:280][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/T6/ELJ3HI994B42IQIWQEZNGD
+[2025.11.10-01.55.35:280][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/ELJ3HI994B42IQIWQEZNGD2D63958E4FD9D48C27079FA27C49FFD5.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/D/T6/ELJ3HI994B42IQIWQEZNGD.uasset'
+[2025.11.10-01.55.35:308][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/TG/JJD8SHJCMNFNMC34COATAM
+[2025.11.10-01.55.35:308][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/JJD8SHJCMNFNMC34COATAM5035D3BB4E0AFBEF45A6E3A794AFA013.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/9/TG/JJD8SHJCMNFNMC34COATAM.uasset'
+[2025.11.10-01.55.35:338][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/Q7/HYGURXU7M62N8WAUIXLWPQ
+[2025.11.10-01.55.35:339][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/HYGURXU7M62N8WAUIXLWPQBEB9F5E04852CFF9C5C0308733F0893B.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/4/Q7/HYGURXU7M62N8WAUIXLWPQ.uasset'
+[2025.11.10-01.55.35:369][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/OQ/FH4UWQ2MQA5KPUZVXS23LJ
+[2025.11.10-01.55.35:369][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/FH4UWQ2MQA5KPUZVXS23LJ7971A41D41A1414CF075CDA9D8B8FCF1.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/OQ/FH4UWQ2MQA5KPUZVXS23LJ.uasset'
+[2025.11.10-01.55.35:400][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/DJ/PLU0RE738EMG7CF7VC8D9S
+[2025.11.10-01.55.35:400][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/PLU0RE738EMG7CF7VC8D9SC19FEDEC44280994BBA49F9735AD1B17.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/DJ/PLU0RE738EMG7CF7VC8D9S.uasset'
+[2025.11.10-01.55.35:430][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/DX/KXAGD7OP6IEQ3K8LWI86RL
+[2025.11.10-01.55.35:430][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/KXAGD7OP6IEQ3K8LWI86RL7C956C9D4D328F15E079F2B337075E06.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/1/DX/KXAGD7OP6IEQ3K8LWI86RL.uasset'
+[2025.11.10-01.55.35:460][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/Q5/9034HM4Y3YU11DE4XNPRA9
+[2025.11.10-01.55.35:460][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/9034HM4Y3YU11DE4XNPRA9D3D50B5C42FE0C233FCE3E8380DA4D49.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/Q5/9034HM4Y3YU11DE4XNPRA9.uasset'
+[2025.11.10-01.55.35:510][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/R1/OHRQN7RF5THM8Z6O6262I4
+[2025.11.10-01.55.35:511][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/OHRQN7RF5THM8Z6O6262I4B38526164483E66567D37796C1F48662.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/1/R1/OHRQN7RF5THM8Z6O6262I4.uasset'
+[2025.11.10-01.55.35:542][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/GW/TAVO56E9B1HVH1F45RLBIA
+[2025.11.10-01.55.35:542][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/TAVO56E9B1HVH1F45RLBIAF25B504C4B77A9CAFE454696C29549A1.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/GW/TAVO56E9B1HVH1F45RLBIA.uasset'
+[2025.11.10-01.55.35:576][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/8U/4ND4ZK6J06I5L4DPSTPYW9
+[2025.11.10-01.55.35:576][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/4ND4ZK6J06I5L4DPSTPYW92E14B9214C8EC5248B9C459B48EF334E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/8U/4ND4ZK6J06I5L4DPSTPYW9.uasset'
+[2025.11.10-01.55.35:607][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/8Q/VXH4MI02ODW8DKNLA2MOK3
+[2025.11.10-01.55.35:608][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/VXH4MI02ODW8DKNLA2MOK3EDB70B4E4D5DE807BCC937A57CFD8B75.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/1/8Q/VXH4MI02ODW8DKNLA2MOK3.uasset'
+[2025.11.10-01.55.35:638][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/TV/0XXSVY1Y0D2HIHA43BVMPH
+[2025.11.10-01.55.35:638][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/0XXSVY1Y0D2HIHA43BVMPH9B5F540B4A7D395C8DA28CBC957322BE.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/4/TV/0XXSVY1Y0D2HIHA43BVMPH.uasset'
+[2025.11.10-01.55.35:668][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/BH/JV2GOVBPB8GZ9MQUICHC9S
+[2025.11.10-01.55.35:668][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/JV2GOVBPB8GZ9MQUICHC9S2FEA28AC4DEE0CAD426B6BBF234181F2.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/BH/JV2GOVBPB8GZ9MQUICHC9S.uasset'
+[2025.11.10-01.55.35:697][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/3T/CK3DVSRDA9WTQU5TC2XO2V
+[2025.11.10-01.55.35:697][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/CK3DVSRDA9WTQU5TC2XO2V7BC9398A407FA058BE65D6B917F1DDB5.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/2/3T/CK3DVSRDA9WTQU5TC2XO2V.uasset'
+[2025.11.10-01.55.35:769][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/AA/NURB0U7U9ZV4H4LX7FT8T2
+[2025.11.10-01.55.35:769][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/NURB0U7U9ZV4H4LX7FT8T23FDF07F44ABCB8C3E82402A4C1D5A2B2.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/AA/NURB0U7U9ZV4H4LX7FT8T2.uasset'
+[2025.11.10-01.55.35:980][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/PW/B3NPG0KFON6BVW5ECZJSUI
+[2025.11.10-01.55.35:980][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/B3NPG0KFON6BVW5ECZJSUIA06457C344B7BF05F55E56985C4563DF.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/PW/B3NPG0KFON6BVW5ECZJSUI.uasset'
+[2025.11.10-01.55.36:011][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/S7/BULBFMUS7ADZJMH54QGDK9
+[2025.11.10-01.55.36:011][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/BULBFMUS7ADZJMH54QGDK9C2C2241949F7685873846AA1FB6EBE62.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/S7/BULBFMUS7ADZJMH54QGDK9.uasset'
+[2025.11.10-01.55.36:040][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/UX/1HONC7HVU91I909A4N80W2
+[2025.11.10-01.55.36:040][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/1HONC7HVU91I909A4N80W260B5795D4472123E3E07CA80D21FCB7E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/UX/1HONC7HVU91I909A4N80W2.uasset'
+[2025.11.10-01.55.36:069][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/R1/6S23OQXPMF10HYXLB9OEIP
+[2025.11.10-01.55.36:069][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/6S23OQXPMF10HYXLB9OEIP727F576C4936E7B85E2EDFBED804478F.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/A/R1/6S23OQXPMF10HYXLB9OEIP.uasset'
+[2025.11.10-01.55.36:098][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/Y6/L8FAOYPHJNQSTCW3XMMSJT
+[2025.11.10-01.55.36:098][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/L8FAOYPHJNQSTCW3XMMSJT34B5D4CA41D1117AA660A684EF32C539.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/C/Y6/L8FAOYPHJNQSTCW3XMMSJT.uasset'
+[2025.11.10-01.55.36:137][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/GP/29WASR1BMNC6IXHW8I5KZ8
+[2025.11.10-01.55.36:137][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/29WASR1BMNC6IXHW8I5KZ8FC025C6E4FFAB75BED7FEEA6BC388D76.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/GP/29WASR1BMNC6IXHW8I5KZ8.uasset'
+[2025.11.10-01.55.36:415][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/6Q/T187Z8E2C6CPJLXCH06KRJ
+[2025.11.10-01.55.36:415][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/T187Z8E2C6CPJLXCH06KRJC435CF0B46191097BD57D4842BF28E83.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/A/6Q/T187Z8E2C6CPJLXCH06KRJ.uasset'
+[2025.11.10-01.55.36:445][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/YN/85792LT2Y93I704I1JYP1K
+[2025.11.10-01.55.36:445][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/85792LT2Y93I704I1JYP1K8C6EF6F641089A5E6DB0B8844B7EB2DA.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/1/YN/85792LT2Y93I704I1JYP1K.uasset'
+[2025.11.10-01.55.36:474][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/OT/Y23P0KHN1XII71UX7D1H8Q
+[2025.11.10-01.55.36:475][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/Y23P0KHN1XII71UX7D1H8QDA95758D420289B1148D928F90D36CAF.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/4/OT/Y23P0KHN1XII71UX7D1H8Q.uasset'
+[2025.11.10-01.55.36:504][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/0E/E7UFHHQZ7B8TLAL6Y74JRC
+[2025.11.10-01.55.36:504][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/E7UFHHQZ7B8TLAL6Y74JRC6C823C9645EAF095B4E44E871728D957.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/0E/E7UFHHQZ7B8TLAL6Y74JRC.uasset'
+[2025.11.10-01.55.36:533][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/QY/FL16ITLR22643N9B35THAR
+[2025.11.10-01.55.36:533][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/FL16ITLR22643N9B35THARAC1D57F54781A0EB3AD1939DF4B97494.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/3/QY/FL16ITLR22643N9B35THAR.uasset'
+[2025.11.10-01.55.36:562][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/AW/90QVEWVNXY6N07CS9SHQPM
+[2025.11.10-01.55.36:562][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/90QVEWVNXY6N07CS9SHQPMAD651E49446576E1D8169F92F79C2E13.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/3/AW/90QVEWVNXY6N07CS9SHQPM.uasset'
+[2025.11.10-01.55.36:591][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/D8/YMDE4WERKLNXIT8TVTH5OW
+[2025.11.10-01.55.36:591][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/YMDE4WERKLNXIT8TVTH5OW42426671485CFBD442E4EB8685FBEC2B.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/4/D8/YMDE4WERKLNXIT8TVTH5OW.uasset'
+[2025.11.10-01.55.36:646][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/WK/NERX0MWYRICL228ZB8J0QW
+[2025.11.10-01.55.36:646][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/NERX0MWYRICL228ZB8J0QW93E186F840F9FD0C761F4386DBD7BC8B.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/D/WK/NERX0MWYRICL228ZB8J0QW.uasset'
+[2025.11.10-01.55.36:675][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/6N/VZU403KFJ6UJQ2M3VY6736
+[2025.11.10-01.55.36:675][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/VZU403KFJ6UJQ2M3VY673605517F104A231F17CA32EE89637C0062.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/3/6N/VZU403KFJ6UJQ2M3VY6736.uasset'
+[2025.11.10-01.55.36:705][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/DX/JANFZ62JMG0U1Z3UNCQVKV
+[2025.11.10-01.55.36:705][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/JANFZ62JMG0U1Z3UNCQVKV04BE69FC4E0E65EE01237BAE7EC58C7B.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/3/DX/JANFZ62JMG0U1Z3UNCQVKV.uasset'
+[2025.11.10-01.55.36:735][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/36/SPYD0PSGU4M3NK7DI5RDRM
+[2025.11.10-01.55.36:735][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/SPYD0PSGU4M3NK7DI5RDRMB26CD8FF4686290007391F81EB6C157B.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/A/36/SPYD0PSGU4M3NK7DI5RDRM.uasset'
+[2025.11.10-01.55.36:766][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/H2/M58JIDBQC2JEOWYFQ17JSY
+[2025.11.10-01.55.36:766][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/M58JIDBQC2JEOWYFQ17JSY1B42F738421D77DBAD01E88FFE08F95D.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/C/H2/M58JIDBQC2JEOWYFQ17JSY.uasset'
+[2025.11.10-01.55.36:795][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/ED/4G06FUR85LXRX1UCMOAFBE
+[2025.11.10-01.55.36:796][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/4G06FUR85LXRX1UCMOAFBE429201624617A55317467CBF86BBCE50.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/ED/4G06FUR85LXRX1UCMOAFBE.uasset'
+[2025.11.10-01.55.36:826][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/FF/4NBZKC5PVQODH9SVSYPY1E
+[2025.11.10-01.55.36:826][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/4NBZKC5PVQODH9SVSYPY1EE9A68BC143027761765C2D8151605007.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/FF/4NBZKC5PVQODH9SVSYPY1E.uasset'
+[2025.11.10-01.55.36:905][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/KQ/APFM7ONOEVP1TBHZZ5VTDA
+[2025.11.10-01.55.36:905][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/APFM7ONOEVP1TBHZZ5VTDA5DBDB3D64A9FFFEFA13E58904C1057D9.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/KQ/APFM7ONOEVP1TBHZZ5VTDA.uasset'
+[2025.11.10-01.55.36:938][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/2Y/UYA7A5HTQTJSRWJ4MK2WT6
+[2025.11.10-01.55.36:938][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/UYA7A5HTQTJSRWJ4MK2WT61559B92E4F0C2FE9C22E5087D1727D8A.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/2Y/UYA7A5HTQTJSRWJ4MK2WT6.uasset'
+[2025.11.10-01.55.37:041][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/YL/NYVVLNPBTKRYOWG6SJON5Q
+[2025.11.10-01.55.37:041][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/NYVVLNPBTKRYOWG6SJON5QD412141A427DDBFC9A813DAB092CDC73.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/YL/NYVVLNPBTKRYOWG6SJON5Q.uasset'
+[2025.11.10-01.55.37:058][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/15/CYNP3142GDJBY11M9RMRBC
+[2025.11.10-01.55.37:058][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/CYNP3142GDJBY11M9RMRBC9D0AC7EB454D62B22AA82E8E5A83626C.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/E/15/CYNP3142GDJBY11M9RMRBC.uasset'
+[2025.11.10-01.55.37:317][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/NM/QGHAKQ11SESEDFOLUDKLRG
+[2025.11.10-01.55.37:317][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/QGHAKQ11SESEDFOLUDKLRGDCFB653348A78B650735C0A0B602B93F.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/3/NM/QGHAKQ11SESEDFOLUDKLRG.uasset'
+[2025.11.10-01.55.37:349][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/VL/2K800X1I75LAHZV8NALO1G
+[2025.11.10-01.55.37:349][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/2K800X1I75LAHZV8NALO1GD6C559DB478084297A62CFA3D2C16C43.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/VL/2K800X1I75LAHZV8NALO1G.uasset'
+[2025.11.10-01.55.37:374][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/C5/CKH5RYZ0ZR9KTVY5K32RCY
+[2025.11.10-01.55.37:374][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/CKH5RYZ0ZR9KTVY5K32RCY2182E2C8435549C6E19CCDBDC54A70E7.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/C5/CKH5RYZ0ZR9KTVY5K32RCY.uasset'
+[2025.11.10-01.55.37:391][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/MY/R0G3BN5XGD6WGH52J72Q90
+[2025.11.10-01.55.37:391][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/R0G3BN5XGD6WGH52J72Q9058923CD1455FABD49245E28373AF620D.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/MY/R0G3BN5XGD6WGH52J72Q90.uasset'
+[2025.11.10-01.55.37:465][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/M5/T6K63GS54OD48GIP4AVZO7
+[2025.11.10-01.55.37:465][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/T6K63GS54OD48GIP4AVZO7A8563A074CC1DEB2180087B633964F93.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/M5/T6K63GS54OD48GIP4AVZO7.uasset'
+[2025.11.10-01.55.37:480][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/XJ/70D8PQ7OROATLX8T345MDX
+[2025.11.10-01.55.37:480][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/70D8PQ7OROATLX8T345MDXABCD285541F91AC12F49E0B6094E9370.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/XJ/70D8PQ7OROATLX8T345MDX.uasset'
+[2025.11.10-01.55.37:496][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/WJ/U6BUG1QRAYYVDV4PDSDUMM
+[2025.11.10-01.55.37:496][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/U6BUG1QRAYYVDV4PDSDUMMF4337D2B44B11DEA755E47A3F4A3C73A.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/WJ/U6BUG1QRAYYVDV4PDSDUMM.uasset'
+[2025.11.10-01.55.37:797][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/1S/K9VG19F1GEWZ7KOSERPA6I
+[2025.11.10-01.55.37:797][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/K9VG19F1GEWZ7KOSERPA6I37F422934EC669FC2E400C968180A6B5.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/1S/K9VG19F1GEWZ7KOSERPA6I.uasset'
+[2025.11.10-01.55.37:812][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/VP/BIGXLLSVFWFDN8GVLXTIJH
+[2025.11.10-01.55.37:812][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/BIGXLLSVFWFDN8GVLXTIJHABA23F0E443DD37A37346C9670925D07.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/2/VP/BIGXLLSVFWFDN8GVLXTIJH.uasset'
+[2025.11.10-01.55.37:828][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/MY/T3SRO2C63VCND6PXTEV1CH
+[2025.11.10-01.55.37:828][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/T3SRO2C63VCND6PXTEV1CH482F146B49BD28EEE7E36EAE16FFD81F.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/MY/T3SRO2C63VCND6PXTEV1CH.uasset'
+[2025.11.10-01.55.37:841][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/OD/BOQSPAK8DZHLQ92PQS2LAK
+[2025.11.10-01.55.37:842][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/BOQSPAK8DZHLQ92PQS2LAK9D8C4B8C49936538802F72B2413A0986.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/OD/BOQSPAK8DZHLQ92PQS2LAK.uasset'
+[2025.11.10-01.55.37:857][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/WD/I1YAF3YM63PH3IRC6INAMT
+[2025.11.10-01.55.37:857][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/I1YAF3YM63PH3IRC6INAMT64A792984EC097DB1F0CBC981F0E4D24.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/C/WD/I1YAF3YM63PH3IRC6INAMT.uasset'
+[2025.11.10-01.55.37:871][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/72/TLK74XQSIYIZ39BEJZZGS8
+[2025.11.10-01.55.37:871][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/TLK74XQSIYIZ39BEJZZGS8B7424E524F81E85F62CAD88F1D48375A.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/E/72/TLK74XQSIYIZ39BEJZZGS8.uasset'
+[2025.11.10-01.55.37:886][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/0U/JK1IL916YYFEUWC238D8BQ
+[2025.11.10-01.55.37:886][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/JK1IL916YYFEUWC238D8BQ132F86F54F6C0D2A611B5192597CA176.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/0U/JK1IL916YYFEUWC238D8BQ.uasset'
+[2025.11.10-01.55.37:901][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/WU/WEBCPTS9FFUMD5IBGOM3UG
+[2025.11.10-01.55.37:901][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/WEBCPTS9FFUMD5IBGOM3UGC619CEF74C6D331D2959E2BD7DB54F69.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/1/WU/WEBCPTS9FFUMD5IBGOM3UG.uasset'
+[2025.11.10-01.55.37:916][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/9H/VCTEVXRXLNOW5ZJ8J61MAD
+[2025.11.10-01.55.37:917][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/VCTEVXRXLNOW5ZJ8J61MADCFCD0BFB495EBE677C60B6A81EEFC8E7.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/9H/VCTEVXRXLNOW5ZJ8J61MAD.uasset'
+[2025.11.10-01.55.37:933][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/86/A1G10A9L4Y0YOIY6Y8GZIW
+[2025.11.10-01.55.37:933][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/A1G10A9L4Y0YOIY6Y8GZIW4913B99E47E48630F441298AA4E9FC44.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/2/86/A1G10A9L4Y0YOIY6Y8GZIW.uasset'
+[2025.11.10-01.55.37:949][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/AE/ZANREFWHM69H8EXQ1GE2WK
+[2025.11.10-01.55.37:949][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/ZANREFWHM69H8EXQ1GE2WKDD66A0B7404C7A3C744183B02F81017F.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/9/AE/ZANREFWHM69H8EXQ1GE2WK.uasset'
+[2025.11.10-01.55.37:968][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/TU/XDAM7DWXRXOLL0SMQT10VN
+[2025.11.10-01.55.37:968][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/XDAM7DWXRXOLL0SMQT10VN93A302C348F560FFB1CE47B969DB9228.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/9/TU/XDAM7DWXRXOLL0SMQT10VN.uasset'
+[2025.11.10-01.55.37:984][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/E4/5S8ZIUHF416MXIWGA05B8X
+[2025.11.10-01.55.37:984][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/5S8ZIUHF416MXIWGA05B8XFA882C304465D7155FC8A998C095A973.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/0/E4/5S8ZIUHF416MXIWGA05B8X.uasset'
+[2025.11.10-01.55.38:002][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/40/JAM3O7SXZW7J01CAEI8GN8
+[2025.11.10-01.55.38:002][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/JAM3O7SXZW7J01CAEI8GN8F0883F884733ED87F682AC9A0BFBB453.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/D/40/JAM3O7SXZW7J01CAEI8GN8.uasset'
+[2025.11.10-01.55.38:060][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/E5/LUBSUPMBCORQY4BX4SUI8D
+[2025.11.10-01.55.38:060][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/LUBSUPMBCORQY4BX4SUI8D9961A3EC406B4680F3C0BCB135C1D45A.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/C/E5/LUBSUPMBCORQY4BX4SUI8D.uasset'
+[2025.11.10-01.55.38:075][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/LV/YUH16E8Q3OFF2UFEOECX6J
+[2025.11.10-01.55.38:075][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/YUH16E8Q3OFF2UFEOECX6J105811CE47F9654D85AD37B4592A1675.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/2/LV/YUH16E8Q3OFF2UFEOECX6J.uasset'
+[2025.11.10-01.55.38:091][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/56/BQ4QD8DM1FV5621690L48Z
+[2025.11.10-01.55.38:092][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/BQ4QD8DM1FV5621690L48Z6B05CD8A4A2E73E0F343818D551B0C7E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/56/BQ4QD8DM1FV5621690L48Z.uasset'
+[2025.11.10-01.55.38:116][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/ZA/E3N9C35NWL586INQHB9VL5
+[2025.11.10-01.55.38:116][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/E3N9C35NWL586INQHB9VL5A9CF745041310AD116B8A89AA3BF9A4D.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/2/ZA/E3N9C35NWL586INQHB9VL5.uasset'
+[2025.11.10-01.55.38:132][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/TK/H3EUOGV4ND1YS97V1OH50D
+[2025.11.10-01.55.38:132][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/H3EUOGV4ND1YS97V1OH50DE955CA024ED9E2FAB71DE0BAA66D302F.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/TK/H3EUOGV4ND1YS97V1OH50D.uasset'
+[2025.11.10-01.55.38:148][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/HD/LBYD52OUWDVKRW2LR5N40R
+[2025.11.10-01.55.38:148][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/LBYD52OUWDVKRW2LR5N40RF448F22443ADFC5978601EB94AB3B45D.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/C/HD/LBYD52OUWDVKRW2LR5N40R.uasset'
+[2025.11.10-01.55.38:164][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/TQ/91MV17CEV5O0TI24BDEBY1
+[2025.11.10-01.55.38:164][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/91MV17CEV5O0TI24BDEBY175DE59D94736ADD0FAF26EBDE620984E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/TQ/91MV17CEV5O0TI24BDEBY1.uasset'
+[2025.11.10-01.55.38:180][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/VN/AYG5JX9GFZ46UZ4D89AS6V
+[2025.11.10-01.55.38:180][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/AYG5JX9GFZ46UZ4D89AS6V33B1ADFF4A6E27EFDE80FB99A7E584EC.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/VN/AYG5JX9GFZ46UZ4D89AS6V.uasset'
+[2025.11.10-01.55.38:197][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/AM/OL1EVUAEZLBC9MZGWLQTGR
+[2025.11.10-01.55.38:197][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/OL1EVUAEZLBC9MZGWLQTGR1ED091FF4493F4870D8ABFB1E1603597.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/AM/OL1EVUAEZLBC9MZGWLQTGR.uasset'
+[2025.11.10-01.55.38:213][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/N4/7QOFK6FYQLTOX424QPFWQM
+[2025.11.10-01.55.38:213][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/7QOFK6FYQLTOX424QPFWQMB151BF26482B117395B80B91C3521085.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/C/N4/7QOFK6FYQLTOX424QPFWQM.uasset'
+[2025.11.10-01.55.38:228][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/OV/KF97WTUCVEEXW34TJN9TX2
+[2025.11.10-01.55.38:228][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/KF97WTUCVEEXW34TJN9TX210AB44FA4EC7F1D7ED782C97D55BEC0A.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/4/OV/KF97WTUCVEEXW34TJN9TX2.uasset'
+[2025.11.10-01.55.38:244][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/XF/O5GF0WUY9GTB5G1RJCRG7S
+[2025.11.10-01.55.38:244][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/O5GF0WUY9GTB5G1RJCRG7SFA59E1C7444AFFAA1BCC3B8ED7FF2AF4.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/2/XF/O5GF0WUY9GTB5G1RJCRG7S.uasset'
+[2025.11.10-01.55.38:260][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/3I/OYJBGVX6BTQ1NB8STSMJKM
+[2025.11.10-01.55.38:260][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/OYJBGVX6BTQ1NB8STSMJKMD5BC023B440B675101D43EBECC46A9F3.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/3I/OYJBGVX6BTQ1NB8STSMJKM.uasset'
+[2025.11.10-01.55.38:299][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/SO/VQZZAJSMUJW42R85QD9NH3
+[2025.11.10-01.55.38:299][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/VQZZAJSMUJW42R85QD9NH370A389CF4CD28365F0BAE2A12B817447.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/4/SO/VQZZAJSMUJW42R85QD9NH3.uasset'
+[2025.11.10-01.55.38:315][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/HN/7PB37ID42LVSJXRXYR6ZEP
+[2025.11.10-01.55.38:315][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/7PB37ID42LVSJXRXYR6ZEP40C2C50D427EAC073880DDB60978E2C4.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/HN/7PB37ID42LVSJXRXYR6ZEP.uasset'
+[2025.11.10-01.55.38:330][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/YF/0Q31YSJCQQFF2U7PF0BX28
+[2025.11.10-01.55.38:331][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/0Q31YSJCQQFF2U7PF0BX28A8749A4743948AC7B640D5B036C0CE1A.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/YF/0Q31YSJCQQFF2U7PF0BX28.uasset'
+[2025.11.10-01.55.38:346][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/UC/AZSCYV28PUELWHGWGMOUUW
+[2025.11.10-01.55.38:347][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/AZSCYV28PUELWHGWGMOUUWE7C772754529F9E54D46B399A604400D.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/E/UC/AZSCYV28PUELWHGWGMOUUW.uasset'
+[2025.11.10-01.55.38:363][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/ND/IQVOSVV1CJEJSNAYJGESY7
+[2025.11.10-01.55.38:363][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/IQVOSVV1CJEJSNAYJGESY72C2846CC496515A51CEF90848F20F8FE.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/4/ND/IQVOSVV1CJEJSNAYJGESY7.uasset'
+[2025.11.10-01.55.38:378][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/Y7/46RJH0JG81KFL2EHXZEPMT
+[2025.11.10-01.55.38:378][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/46RJH0JG81KFL2EHXZEPMT3EFE8B314D89505746D9B1A51AC52571.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/Y7/46RJH0JG81KFL2EHXZEPMT.uasset'
+[2025.11.10-01.55.38:395][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/7J/9BCOS91D9LWWYTKPAXD2LN
+[2025.11.10-01.55.38:395][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/9BCOS91D9LWWYTKPAXD2LN53ECD9254287B67D311237A3FA98F35E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/A/7J/9BCOS91D9LWWYTKPAXD2LN.uasset'
+[2025.11.10-01.55.38:411][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/2E/9BJPPHQETRDHJ6POTKQFCX
+[2025.11.10-01.55.38:411][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/9BJPPHQETRDHJ6POTKQFCX5257B2DE4C8A887EF4892795F4F87A83.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/E/2E/9BJPPHQETRDHJ6POTKQFCX.uasset'
+[2025.11.10-01.55.38:427][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/PX/G3E3331RDRVC7PRWZHULLK
+[2025.11.10-01.55.38:427][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/G3E3331RDRVC7PRWZHULLKCE3283EA439D6D4FB800CC9809084C59.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/D/PX/G3E3331RDRVC7PRWZHULLK.uasset'
+[2025.11.10-01.55.38:442][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/JB/YYX2A6F6SXT4UCL62ZSE1C
+[2025.11.10-01.55.38:442][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/YYX2A6F6SXT4UCL62ZSE1CA42C5CF9475C0C917F1670821419F058.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/JB/YYX2A6F6SXT4UCL62ZSE1C.uasset'
+[2025.11.10-01.55.38:516][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/85/LYYUJ74G36R96SWX1Y48Z2
+[2025.11.10-01.55.38:516][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/LYYUJ74G36R96SWX1Y48Z205D41A544B3AB8E86EBF9D8D44FA82AE.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/85/LYYUJ74G36R96SWX1Y48Z2.uasset'
+[2025.11.10-01.55.38:706][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/5E/ITT14I7RIPFAWOLW027WEZ
+[2025.11.10-01.55.38:706][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/ITT14I7RIPFAWOLW027WEZ24D30A964E0E144F765850A9EA30780E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/5E/ITT14I7RIPFAWOLW027WEZ.uasset'
+[2025.11.10-01.55.38:722][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/AM/IW2N8XM75607JCJRYEL5P1
+[2025.11.10-01.55.38:722][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/IW2N8XM75607JCJRYEL5P15F51EDEB44E58993278FF8838078F118.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/AM/IW2N8XM75607JCJRYEL5P1.uasset'
+[2025.11.10-01.55.38:737][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/Y8/VK823AP9UC5PC8XHHP2U6Q
+[2025.11.10-01.55.38:737][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/VK823AP9UC5PC8XHHP2U6Q9EB571C8443761B9FF46748E783FA756.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/Y8/VK823AP9UC5PC8XHHP2U6Q.uasset'
+[2025.11.10-01.55.38:752][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/FL/7AIFWLMZM6FNZ32SK032TY
+[2025.11.10-01.55.38:752][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/7AIFWLMZM6FNZ32SK032TY07AEB6A346E8133D93A72E83BFD07966.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/7/FL/7AIFWLMZM6FNZ32SK032TY.uasset'
+[2025.11.10-01.55.38:769][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/C6/ILDZATAJAWX5WLB33M7FQS
+[2025.11.10-01.55.38:769][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/ILDZATAJAWX5WLB33M7FQS43B5A3654B9FBFE4FF7CF5850897D04D.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/8/C6/ILDZATAJAWX5WLB33M7FQS.uasset'
+[2025.11.10-01.55.38:783][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/SS/Z0TCOW85SPIL4WJ6FSQCO4
+[2025.11.10-01.55.38:783][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/Z0TCOW85SPIL4WJ6FSQCO4C3E1C40C4F7318442C428BBB719B35B0.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/SS/Z0TCOW85SPIL4WJ6FSQCO4.uasset'
+[2025.11.10-01.55.38:858][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/HH/H4AXV0G023QP28PQTAOF1O
+[2025.11.10-01.55.38:858][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/H4AXV0G023QP28PQTAOF1O74BA3CA648970ED20D4544BE7425982A.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/1/HH/H4AXV0G023QP28PQTAOF1O.uasset'
+[2025.11.10-01.55.38:927][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/YN/IYAAZJT51R8CKODGGF8YC2
+[2025.11.10-01.55.38:927][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/IYAAZJT51R8CKODGGF8YC246E500144B1A297A01137D890E036D64.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/3/YN/IYAAZJT51R8CKODGGF8YC2.uasset'
+[2025.11.10-01.55.39:011][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/OX/F6F3RD6PEOLM8CV7YNVMYS
+[2025.11.10-01.55.39:011][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/F6F3RD6PEOLM8CV7YNVMYSBA35451847A400BCCAAAFCBF0290C007.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/E/OX/F6F3RD6PEOLM8CV7YNVMYS.uasset'
+[2025.11.10-01.55.39:026][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/VG/D5AP58IHU71AU0M2JNWETA
+[2025.11.10-01.55.39:026][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/D5AP58IHU71AU0M2JNWETA0324D4AB4B493458B56AB0AB231FACC4.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/A/VG/D5AP58IHU71AU0M2JNWETA.uasset'
+[2025.11.10-01.55.39:058][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/WH/7XH5KOM6VGSWXXG4WJEEWJ
+[2025.11.10-01.55.39:058][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/7XH5KOM6VGSWXXG4WJEEWJ8CBAC1BA44885BE3A6CDF0883004F4C1.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/4/WH/7XH5KOM6VGSWXXG4WJEEWJ.uasset'
+[2025.11.10-01.55.39:074][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/WA/RLEWE2Y9S5ZDO8F6ELEJ00
+[2025.11.10-01.55.39:074][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/RLEWE2Y9S5ZDO8F6ELEJ00D86FD3B2499187CC731CCAB370E3FA8F.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/1/WA/RLEWE2Y9S5ZDO8F6ELEJ00.uasset'
+[2025.11.10-01.55.39:089][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/JV/8JJDOIVMLQYT8VXINSJM0R
+[2025.11.10-01.55.39:089][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/8JJDOIVMLQYT8VXINSJM0R9E75211A43A996C8F774E88440855066.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/B/JV/8JJDOIVMLQYT8VXINSJM0R.uasset'
+[2025.11.10-01.55.39:104][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/C2/ZWSO730QU54SJNCOZJ3TA1
+[2025.11.10-01.55.39:104][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/ZWSO730QU54SJNCOZJ3TA19DE2F60C4A3A0FC6265060A6D5CD16D4.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/6/C2/ZWSO730QU54SJNCOZJ3TA1.uasset'
+[2025.11.10-01.55.39:120][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/RM/0F53A5EQLRS5JNU3C82R84
+[2025.11.10-01.55.39:121][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/0F53A5EQLRS5JNU3C82R84D22D54EE4583A6AF60DA56B1F753776E.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/9/RM/0F53A5EQLRS5JNU3C82R84.uasset'
+[2025.11.10-01.55.39:137][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/QY/1ETCZL36T8LOULTG5FSKJ8
+[2025.11.10-01.55.39:137][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/1ETCZL36T8LOULTG5FSKJ8F6CAB40E4EC71966C2C6FCB3109FAAC9.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/D/QY/1ETCZL36T8LOULTG5FSKJ8.uasset'
+[2025.11.10-01.55.39:153][674]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/FT/I5IPTC503UZ5480FO15FQ7
+[2025.11.10-01.55.39:153][674]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/I5IPTC503UZ5480FO15FQ717E25221417BCB15DDD0049A34B4ACF3.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/__ExternalActors__/NewMap/5/FT/I5IPTC503UZ5480FO15FQ7.uasset'
+[2025.11.10-01.55.39:176][674]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.8 sec
+[2025.11.10-01.55.39:201][674]LogFileHelpers: Saving map 'NewMap' took 14.481
+[2025.11.10-01.55.39:249][674]Cmd: MAP LOAD FILE="../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.11.10-01.55.39:277][674]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.10-01.55.39:277][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.10-01.55.39:277][674]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NewMap.NewMap
+[2025.11.10-01.55.39:320][674]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.10-01.55.39:381][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.11.10-01.55.39:382][674]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.10-01.55.39:388][674]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewMap'.
+[2025.11.10-01.55.39:388][674]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2025.11.10-01.55.39:390][674]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.11.10-01.55.39:390][674]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.10-01.55.39:390][674]LogWorldPartition: UWorldPartition::Initialize : World = /Game/NewMap.NewMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.10-01.55.39:436][674]LogTexture: Display: Building textures: /Game/NewMap.NewMap:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927.MinimapTexture (TFO_AutoDXT VT, 2048x2048 x1x1x1) (Required Memory Estimate: 187.666666 MB), EncodeSpeed: Fast
+[2025.11.10-01.55.39:705][674]LogWorldPartition: Display: WorldPartition initialize took 314.812 ms (total: 1.53 sec)
+[2025.11.10-01.55.40:134][674]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.11.10-01.55.40:151][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.11.10-01.55.40:155][674]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.11.10-01.55.40:156][674]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.238ms to complete.
+[2025.11.10-01.55.40:342][674]LogContentValidation: Display: Starting to validate 146 assets
+[2025.11.10-01.55.40:342][674]LogContentValidation: Enabled validators:
+[2025.11.10-01.55.40:342][674]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.10-01.55.40:343][674]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.10-01.55.40:343][674]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.10-01.55.40:343][674]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.10-01.55.40:343][674]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.10-01.55.40:343][674]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.10-01.55.40:351][674]AssetCheck: /Game/NewMap Validating asset
+[2025.11.10-01.55.40:351][674]AssetCheck: /Game/NewMap_HLOD0_Instancing Validating asset
+[2025.11.10-01.55.40:779][674]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.10-01.55.40:863][675]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.10-01.58.05:847][109]LogSlate: Took 0.029705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.11.10-01.58.33:289][336]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1376.843018
+[2025.11.10-01.58.34:289][339]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.10-01.58.34:289][339]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1377.510132, Update Interval: 350.522156
+[2025.11.10-02.04.46:962][457]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1750.514160
+[2025.11.10-02.04.47:962][460]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.10-02.04.47:962][460]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1751.180054, Update Interval: 343.604248
+[2025.11.10-02.11.03:968][588]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2127.516357
+[2025.11.10-02.11.04:968][591]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.10-02.11.04:969][591]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2128.184082, Update Interval: 316.474487
