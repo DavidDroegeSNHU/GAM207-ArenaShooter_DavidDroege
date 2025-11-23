@@ -155,7 +155,19 @@
 				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/PlayerChar_BP.uasset",
 				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/ArenaMode.uasset",
 				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/PlayerProj_BP.uasset",
-				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/Projectile_MAT.uasset"
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/Projectile_MAT.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/AIChar_BP.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/AI_BT.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/Tasks/Wander.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/AICont_BP.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/AI_BB.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/AIProj_BP.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/Tasks/Focus.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/Tasks/MoveToLocation.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/Tasks/Shoot.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/Tasks/StopShooting.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Spawner/SpawnPoint.uasset",
+				"D:/Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/PlayerChar_BP_Child.uasset"
 			]
 		}
 	]
