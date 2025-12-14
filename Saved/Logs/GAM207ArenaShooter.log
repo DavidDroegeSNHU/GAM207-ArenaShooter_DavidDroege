@@ -11734,3 +11734,89 @@ Scale3D: 1.000000 1.000000 1.000000
 [2025.12.14-03.45.07:400][580]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
 [2025.12.14-03.45.07:400][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2025.12.14-03.45.07:430][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.12.14-03.47.31:984][249]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.12.14-03.47.32:046][250]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.12.14-03.47.33:279][320]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP
+[2025.12.14-03.47.33:352][320]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.12.14-03.47.33:552][320]LogStreaming: Display: FlushAsyncLoading(350): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.14-03.47.37:556][320]LogSlate: Took 0.000391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.12.14-03.48.00:937][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.14-03.48.00:986][ 66]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2025.12.14-03.48.01:044][ 66]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP]
+[2025.12.14-03.48.01:044][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2025.12.14-03.48.01:044][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2025.12.14-03.48.01:154][ 66]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2025.12.14-03.48.01:155][ 66]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/PlayerChar_BP7C1CF25E4C892A66423448BA380680B6.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/PlayerChar_BP.uasset'
+[2025.12.14-03.48.01:166][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 229.213 ms (total: 1.87 sec)
+[2025.12.14-03.48.01:213][ 66]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.14-03.48.01:213][ 66]LogContentValidation: Enabled validators:
+[2025.12.14-03.48.01:214][ 66]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.14-03.48.01:214][ 66]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.14-03.48.01:214][ 66]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.14-03.48.01:214][ 66]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.14-03.48.01:214][ 66]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.14-03.48.01:214][ 66]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.14-03.48.01:214][ 66]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2025.12.14-03.48.01:622][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.12.14-03.48.02:594][137]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.14-03.48.02:642][137]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2025.12.14-03.48.02:689][137]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP]
+[2025.12.14-03.48.02:689][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2025.12.14-03.48.02:689][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2025.12.14-03.48.02:847][137]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2025.12.14-03.48.02:847][137]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/PlayerChar_BP31DE3CD94143DC414C4075B3AA78DCA8.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/PlayerChar_BP.uasset'
+[2025.12.14-03.48.02:859][137]LogFileHelpers: InternalPromptForCheckoutAndSave took 265.459 ms (total: 2.13 sec)
+[2025.12.14-03.48.02:908][137]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.14-03.48.02:908][137]LogContentValidation: Enabled validators:
+[2025.12.14-03.48.02:908][137]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.14-03.48.02:908][137]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.14-03.48.02:908][137]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.14-03.48.02:908][137]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.14-03.48.02:908][137]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.14-03.48.02:908][137]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.14-03.48.02:908][137]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2025.12.14-03.48.07:323][385]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AIChar_BP.AIChar_BP
+[2025.12.14-03.48.07:324][385]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.12.14-03.48.24:408][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.12.14-03.48.25:115][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.14-03.48.25:156][651]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AIChar_BP] ([2] browsable assets)...
+[2025.12.14-03.48.25:215][651]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AIChar_BP.AIChar_BP]
+[2025.12.14-03.48.25:215][651]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIChar_BP]
+[2025.12.14-03.48.25:215][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar_BP" FILE="../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/AIChar_BP.uasset" SILENT=true
+[2025.12.14-03.48.25:254][651]LogSavePackage: Moving output files for package: /Game/AI/AIChar_BP
+[2025.12.14-03.48.25:255][651]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/AIChar_BPBD85DEAB46EDD4779BB690BE76259AED.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/AI/AIChar_BP.uasset'
+[2025.12.14-03.48.25:266][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.478 ms (total: 2.29 sec)
+[2025.12.14-03.48.25:315][651]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.14-03.48.25:315][651]LogContentValidation: Enabled validators:
+[2025.12.14-03.48.25:315][651]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.14-03.48.25:315][651]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.14-03.48.25:315][651]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.14-03.48.25:315][651]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.14-03.48.25:315][651]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.14-03.48.25:315][651]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.14-03.48.25:315][651]AssetCheck: /Game/AI/AIChar_BP Validating asset
+[2025.12.14-03.48.58:070][227]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2801.260742
+[2025.12.14-03.48.59:071][230]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.14-03.48.59:071][230]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2801.927490, Update Interval: 350.357361
+[2025.12.14-03.52.34:989][580]LogSlate: Window 'Color Picker' being destroyed
+[2025.12.14-03.54.19:634][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.12.14-03.54.20:495][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.14-03.54.20:541][ 12]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/PlayerChar_BP] ([2] browsable assets)...
+[2025.12.14-03.54.20:587][ 12]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/PlayerChar_BP.PlayerChar_BP]
+[2025.12.14-03.54.20:588][ 12]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/PlayerChar_BP]
+[2025.12.14-03.54.20:588][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/PlayerChar_BP" FILE="../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/PlayerChar_BP.uasset" SILENT=true
+[2025.12.14-03.54.20:627][ 12]LogSavePackage: Moving output files for package: /Game/Player/PlayerChar_BP
+[2025.12.14-03.54.20:627][ 12]LogSavePackage: Moving '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Saved/PlayerChar_BP98F768EE4DE6C39CEDDFB5AD60A89EF1.tmp' to '../../../../../../Users/Dave Droege/OneDrive/Documents/Unreal Projects/GAM207ArenaShooter/Content/Player/PlayerChar_BP.uasset'
+[2025.12.14-03.54.20:635][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.232 ms (total: 2.43 sec)
+[2025.12.14-03.54.20:687][ 12]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.14-03.54.20:687][ 12]LogContentValidation: Enabled validators:
+[2025.12.14-03.54.20:687][ 12]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.14-03.54.20:687][ 12]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.14-03.54.20:687][ 12]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.14-03.54.20:687][ 12]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.14-03.54.20:687][ 12]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.14-03.54.20:687][ 12]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.14-03.54.20:687][ 12]AssetCheck: /Game/Player/PlayerChar_BP Validating asset
+[2025.12.14-03.55.32:355][792]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3195.540771
+[2025.12.14-03.55.33:355][795]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.14-03.55.33:355][795]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3196.208740, Update Interval: 300.624420
